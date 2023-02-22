@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    background-color: black;
+    
+
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 0;
+}
+.details{
+    color: white;
+}
+ .floatright{
+    background-image: url(tech.jpg);
+    height: 700px;
+    width:1000px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+ }
+ .floatinner button {
+    background: transparent;
+    width: 340px;
+    height: 30px;
+    color:orange;
+    border-radius: 2px solid red;
+    align-items: center;
+    margin-left:70px
+   
+
+ }
+
+
+ .floatinner {
+    padding-left: 270px;
+    align-items: center;
+   
+ }
+ .floatinner h1{
+   color: white;
+   padding-bottom: 20px;
+ }
+
+  
+  /* .floatright h1:{
+margin-bottom: 60px;
+text-align: center;
+ } */
+
+ /* .floatright button:{
+    padding: 60px;
+    text-align: center;
+ }  */
+     
+     .floatletf {
+    padding: 0 100px;
+    width: auto;
+ }
+ .details input{
+    background: transparent;
+    width: 340px;
+    height: 30px;
+    color:orange;
+
+ }
+ /* ::placeholder{
+    color:orangered;
+ } */
+ .select{
+    color:white;
+    text-align: center;
+ }
+
+ #terms{
+    color:orange;
+    padding: 20px 0;
+ }
+
+ .select button{
+    background: transparent;
+    width: 250px;
+    height: 30px;
+    color:white;
+ }
+
+ .details button{
+    background-color: orange;
+    width: 340px;
+    height: 30px;
+border: 0; color: white;
+ }
+ #terms span{
+    color: white;
+ }
